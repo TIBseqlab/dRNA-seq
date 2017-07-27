@@ -2,11 +2,11 @@ dRNA-seq实验流程
 =============
 
 
-###样本要求：
+### 样本要求：
 1. total RNA纯化:为了得到包括small RNA在内的total RNA 选用TRIzol法进行RNA抽提。
 2. total RNA质检:Nanodrop检测total RNA OD260/280值在1.8~2.2之间；Qubit2.0检测total RNA浓度≥100 ng/μl，总质量≥10μg；Agilent 2100检测total RNA 28S:18S≥1.5，RIN≥8。
 
-###实验流程：
+### 实验流程：
 1. rRNA-zero：使用Epicentre Ribo-Zero rRNA Removal Kits 去除total RNA 中的rRNA。
 2. TEX消化：为了区分primary transcript和processed transcript，需要建立两个cDNA文库：TEX+库，用Terminator 5’-phosphate-dependent exonuclease（TEX，Epicentre）处理，消除带有5’P的processed transcript；TEX-库，不进行TEX处理，溶液中包含5’PPP的primary transcript和5’P的processed transcript。
 3. 纯化：利用RNeasy MinElute Cleanup Kit分别对上述两个文库进行纯化。
