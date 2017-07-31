@@ -10,7 +10,7 @@ dRNA-seq实验流程
 1. rRNA-zero：使用Epicentre Ribo-Zero rRNA Removal Kits 去除total RNA 中的rRNA。
 2. TEX消化：为了区分primary transcript和processed transcript，需要建立两个cDNA文库：TEX+库，用Terminator 5’-phosphate-dependent exonuclease（TEX，Epicentre）处理，消除带有5’P的processed transcript；TEX-库，不进行TEX处理，溶液中包含5’PPP的primary transcript和5’P的processed transcript。
 3. 纯化：利用RNeasy MinElute Cleanup Kit分别对上述两个文库进行纯化。
-4. RppH反应：分别对TEX+库和TEX-库进行RppH（NEB）处理，TAP能够将初始转录本上的5’-PPP基团转化为5’-P基团，为后续的5’端加RNA接头做准备。
+4. RppH反应：分别对TEX+库和TEX-库进行RppH（NEB）处理，RppH能够将初始转录本上的5’-PPP基团转化为5’-P基团，为后续的5’端加RNA接头做准备。
 5. 纯化：再次利用RNeasy MinElute Cleanup Kit分别对上述两个文库进行纯化。
 6. 建库：进一步利用RNA-Seq Library Preparation Kit for Transcriptome Discovery Gnomegen对上述两个进行dRNA-seq cDNA文库构建。
 7. 可选择另外构建一个strand-specific whole-transcript文库并测序分析，该文库包含全部转录组信息，且具有链特异性，用于确认核实TSS。
